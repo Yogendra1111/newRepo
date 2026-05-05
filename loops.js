@@ -48,13 +48,12 @@
 
 
 
-//for-in loop;
-let student = {
-    name:"Yogendra",
-    age: 20,
-    cgpa: 9.5,
-    ispass: true,
-};
-for(let key in student) {
-console.log(key,student[key])
-}
+// let student = {
+//     name:"Yogendra",
+//     age: 20,
+//     cgpa: 9.5,
+//     ispass: true,
+// };
+// for(let key in student) {
+// console.log(key,student[key])
+// }
