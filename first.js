@@ -1,10 +1,10 @@
-//console.log("Welcome Mr.Yogendra");
+// console.log("Welcome Mr.Yogendra");
 
 
 
-//1. Arithmetic operators
-//Uinary operator
-//post & pre 
+// 1. Arithmetic operators
+// Uinary operator
+// post & pre 
 
 // let a = 5;
 
@@ -18,13 +18,13 @@
 
 
 
-//2. Asignment operator
+// 2. Asignment operator
 
 // console.log("current a value = ",a);
 // a += 5;
 // console.log("after operation a = ",a);
 
-//multiplication operation
+// multiplication operation
 // let x = 10;
 // console.log("current value of x =", x);
 // x *= 5;
@@ -32,7 +32,7 @@
 
 
 
-//comparision operatior
+// comparision operatior
 
 //  !=
 // let a = 10;
@@ -70,9 +70,9 @@
 
 
 
-//operators
+// operators
 
-//1. Arithmatic opeators
+// 1. Arithmatic opeators
 
 // let a = 10;
 // let b = 20;
@@ -84,8 +84,8 @@
 // console.log("a % b = ", a % b);
 // console.log("a ** b = ", a ** b);
 
-//unary operator
-//post & pre
+// unary operator
+// post & pre
 
 // let a = 5;
 // let b = 2;
@@ -105,7 +105,7 @@
 // logical operators
 
 
-//lodical AND(&)
+// lodical AND(&)
 
 // let a = 10;
 // let b = 20;
@@ -122,7 +122,7 @@
 // console.log("cond1 && cond2 = ", cond1 && cond2); // False
 
 
- //logical OR(||)
+//  logical OR(||)
 
 // 1.
 // let a = 10;
@@ -133,7 +133,7 @@
 // console.log("cond1 || cond2 = ", cond1 || cond2); // True
 
 
-//2.
+// 2.
 // let a = 10;
 // let b = 20;
 
@@ -150,7 +150,7 @@
 
 
 
-///Conditional statements
+// /Conditional statements
 
 // //1. if statements
 
@@ -196,14 +196,14 @@
 // }
 
 
-// even or odd
+// // even or odd
 
-let number = "1";
+// let number = "1";
 
-if (number%2 ===0) {
-console.log("even");
-} else {
-    console.log("odd");
-}
+// if (number%2 ===0) {
+// console.log("even");
+// } else {
+//     console.log("odd");
+// }
 
 

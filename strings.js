@@ -1,10 +1,10 @@
-// let str1 = "string";
-// let str2 = "string2";
+let str1 = "string";
+let str2 = "string2";
 
-// console.log(str1[2]);
+console.log(str1[0]);
 
 
-// // Template literals
+///                            ###  Template literals   ###
 // let temp = `yogendra`;
 // console.log(temp)
 // console.log(typeof temp);
@@ -18,7 +18,7 @@
 // console.log(output)
 
 
-//escape charactor
+//                                  escape charactor
 
 // console.log('my name is \nyogendra');
 // let str = "yogendra\nnagar";
@@ -35,7 +35,7 @@
 
 
 
-// slice();
+//                                      slice();
 
 // let str = "0123456789";
 // let str2 = "HelloWorld";
@@ -43,7 +43,7 @@
 // console.log(str.slice(1,5));
 
 
-// concat();
+//                                      concat();
 
 // let str1 = "my";
 // let str2 = "college";
@@ -54,7 +54,7 @@
 
 
 
-// replace
+//                                         replace
 
 // let str = "Hello"
 // console.log(str.replace("Hello","Hello Yuvii"))

@@ -17,7 +17,33 @@
 
 
 /// looping over an array;
- let ind = ["RJ",'MH','PNJ','HR','GJ','UK'];
-for (let idx = 0;idx < ind.length ; idx++){
-    console.log(idx,ind[idx]);
-};
+
+
+//  let india = ["RJ",'MH','PNJ','HR','GJ','UK'];
+// for (let idx = 0;idx < india.length ; idx++){
+//     console.log(idx,india[idx]);
+// };
+
+
+// let india = ["RJ",'MH','PNJ','HR','GJ','UK'];
+// for (let idx in india) {
+//     console.log(idx,india[idx]);
+// }
+
+
+///or; ;
+
+
+// let india = ["RJ",'MH','PNJ','HR','GJ','UK'];
+// for (let idx = 0 ; idx < india.length ; idx++ ) {
+//     console.log(idx,india[idx]);
+// }
+
+
+let cities = ["munmbai","pune","jaipur","agra","delhi"];
+for (city of cities) {
+    console.log(city.toUpperCase());
+}
+///  ###  .toUpperCase  ###
+
+
