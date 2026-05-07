@@ -78,12 +78,35 @@
 
 
 //                                        concat();   (join multiple arrays)
-let marval = ["ironman","thor"];
-marval.unshift("spiderman");            // unshift (add to first in array)
-console.log(marval);
+// let marval = ["ironman","thor"];
+// marval.unshift("spiderman");            // unshift (add to first in array)
+// console.log(marval);
 
-let dc = ['supreman','batman',"flash"];
-console.log(dc);
-// console.log(marval.concat(dc));
-let deleted = dc.shift();                         //shift()   (delete first value of array)
-console.log('deleted : ',deleted);
+// let dc = ['supreman','batman',"flash"];
+// console.log(dc);  
+// // console.log(marval.concat(dc));
+// let deleted = dc.shift();                         //shift()   (delete first value of array)
+// console.log('deleted : ',deleted);
+
+
+//                                          slice() 
+// let dc = ['supreman','batman',"flash"];
+// console.log(dc.slice(0,2));
+
+
+
+
+//                                          splice();
+// let arr = [ 1,2,33,44,5,6,7,8,9,10];
+
+// arr.splice(2, 2, 3, 4);                 //replece element;
+// console.log(arr);
+
+// let array = [1,2,5,6,7,8,9,10];            //Add element;
+// array.splice(2,0,3,4);
+// console.log(array);
+
+
+// let array = [1,2,3,4,5,6,7,8,9,10];            // delete element;
+// array.splice(2,2);
+// console.log(array);
