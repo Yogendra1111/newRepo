@@ -46,10 +46,44 @@
 
 ///                                       applying offer of 10 %
 
-let items = [250,645,300,90,50];
+// let items = [250,645,300,90,50];
 
- for (let i=0;i<items.length;i++) {
-    let offer = items[i] / 10;
-    items[i] -= offer;
- }
-    console.log(items);
+//  for (let i=0;i<items.length;i++) {
+//     let offer = items[i] / 10;
+//     items[i] -= offer;
+//  }
+//     console.log('The price of items after applying the offer is ',items);
+
+
+
+///                                                   Arrey methods
+
+
+// let fruits = ['apple','banana','mango','orange']
+// console.log(fruits)
+
+// fruits.push('litchi');
+// fruits.push('watermelon','papaya');
+// console.log(fruits);
+
+// let deleteditem = fruits.pop();
+// console.log('deleted',deleteditem);
+
+
+
+//                                                  toString();
+// let fruits = ['apple','banana','mango','orange']
+// console.log(fruits);
+// console.log(fruits.toString());
+
+
+//                                        concat();   (join multiple arrays)
+let marval = ["ironman","thor"];
+marval.unshift("spiderman");            // unshift (add to first in array)
+console.log(marval);
+
+let dc = ['supreman','batman',"flash"];
+console.log(dc);
+// console.log(marval.concat(dc));
+let deleted = dc.shift();                         //shift()   (delete first value of array)
+console.log('deleted : ',deleted);
