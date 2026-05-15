@@ -93,3 +93,42 @@
 
 
 
+
+
+
+
+
+//                                     Array mehods practice questions
+
+// let arr = [91,78,68,94,98,76,84,80,90,82];
+
+// let toppers = arr.filter((num) => {
+//         return num >= 90;
+// }
+// );
+// console.log(toppers);;
+
+
+// let n = prompt("enter a number : ");                         //promot  ??????
+
+// let arr = [];
+
+// for (let i = 0; i <= n; i++) {
+//         arr [i - 1] = i;
+// }
+// console.log(arr);
+
+
+
+let arr = [1,2,3,4,5];
+
+let sum = arr.reduce((pre,curr) => {
+        return pre + curr;
+});
+console.log("sum = : ", sum);
+
+let factorial = arr.reduce((pre,curr) => {
+        return pre * curr;
+});
+console.log("fctorial = : ", factorial);
+
